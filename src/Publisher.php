@@ -22,6 +22,6 @@ class Publisher
 
     public function send($channel, $emssage)
     {
-        $this->_redis->publish($channel, $message);
+        return $this->_redis->publish($channel, $message);
     }
 }
