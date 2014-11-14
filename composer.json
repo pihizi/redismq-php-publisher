@@ -2,7 +2,7 @@
     "name": "pihizi/redismq-php-publisher",
     "type": "library",
     "description": "PHP library: publish message to redis MQ",
-    "keywords": ["php", "redis", "MQ", "publish/subscrib"],
+    "keywords": ["php", "redis", "MQ", "publish", "subscrib"],
     "homepage": "https://github.com/pihizi/redismq-php-publisher",
     "license": "MIT",
 
