@@ -6,7 +6,7 @@ class Publisher
 {
     private $_redis;
     private $_asyncChannel;
-    public function __construct($host='127.0.0.1', $port='6379', $password=null, $channel='debade-master-message-channel')
+    public function __construct($host='127.0.0.1', $port='6379', $password=null, $channel='debade')
     {
         $redis = new \Redis();
         $redis->connect($host, $port);
